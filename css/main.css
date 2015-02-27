@@ -5,25 +5,43 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+
+img{
+  width:100%;
+}
+
 .inset{
   float: left;
-  width: 22%;
+  width: 30%;
   margin-right: 15px;
   margin-bottom: 15px;
 }
+.p{
+  margin: bottom;
+  font: Georgia;
+}
 .p2{
   clear: left;
-  float: right;
 }
 
-.clear-it{
+.fc{
+  background-color: #d98156;
+  color:white;
+  text-align: center;
   clear: right;
+  float: none;
+}
+h2{
+  clear
+}
+.clear-it{
+  clear: both;
   float: right;
 }
 
 div{
   background-color: #cd5b34;
-  border: 1px solid blue;
+  border: none;
   overflow: hidden;
 }
 nav{
@@ -58,33 +76,31 @@ h1{
   text-align: center;
   color: white;
 }
-h2{
-  background-color:#d98156;
-  color:white;
-  text-align: center;
-  clear: left;
-}
+
 figure{
   padding: top o.5em bottom 0.5em;
   width:100%;
-  clear: left;
 }
 .corn{
   width: 100%;
+  background-color: #d98156;
+  align: center;
 }
 .rice{
   clear: left;
   float: left;
   width: 50%;
   background-color:#d98156;
+  display: inline-block;
+  margin: 0;
 }
 .oats{
-  clear: right;
   float: right;
   width: 50%;
-  background-color: #d98156;
-  padding: 1em 2em 0.5em;
+  display:inline-block;
   margin: 0;
-  border: none;
-  border-radius: none;
+}
+.thingy{
+  background-color:#d98156;
+  clear: right;
 }
