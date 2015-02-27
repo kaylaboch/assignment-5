@@ -19,10 +19,7 @@ html{
   clear: right;
   float: right;
 }
-.clearit{
-  clear:right;
-  float:right;
-}
+
 div{
   background-color: #cd5b34;
   border: 1px solid blue;
@@ -55,4 +52,18 @@ nav a{
 }
 a:hover{
   color: #d98156;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+h2{
+  background-color:#d98156;
+  color:white;
+  text-align: center;
+  clear: left;
+}
+.corn{
+  background-color:#d98156;
+  padding: top 1em bottom 1em;
 }
