@@ -38,6 +38,7 @@ h2{
   clear: both;
   float: right;
   width: 40%;
+  margin-left: 1em;
 }
 
 div{
@@ -118,24 +119,34 @@ figcaption{
   margin:0;
   float: left;
   clear: left;
+  margin-right: 1em;
 }
 .beans{
   width: 30%;
   margin:0;
   float: left;
   clear: left;
+  margin-right: 1em;
 }
 .lentils{
   width: 30%;
   margin: 0;
   float: left;
   clear: left;
+  margin-right: 1em;
 }
 ul{
   text-align
 }
-footer{
+.foot{
   clear: both;
   text-align: center;
-  display:inline-block;
+  display:block;
+  padding: 1em 1em 1em 1em;
+  width: 33.33333333%;
+  overflow: hidden;
+  margin: 0;
+}
+.p{
+  margin-bottom: 5em; 
 }
