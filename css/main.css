@@ -56,7 +56,6 @@ nav ol{
   overflow: hidden;
 }
 nav li{
-  border: .2em solid darkred;
   float: left;
   width:33.33333333%;
   list-style-type: none;
@@ -134,4 +133,9 @@ figcaption{
 }
 ul{
   text-align
+}
+footer{
+  clear: both;
+  text-align: center;
+  display:inline-block;
 }
