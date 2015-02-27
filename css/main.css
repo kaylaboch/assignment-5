@@ -136,17 +136,17 @@ figcaption{
   margin-right: 1em;
 }
 ul{
-  text-align
+  clear: left;
+  display: inline-block;
+  text-align: left;
 }
 .foot{
   clear: both;
   text-align: center;
   display:block;
   padding: 1em 1em 1em 1em;
-  width: 33.33333333%;
   overflow: hidden;
   margin: 0;
 }
 .p{
-  margin-bottom: 5em; 
 }
