@@ -12,7 +12,7 @@ img{
 
 .inset{
   float: left;
-  width: 30%;
+  width: 40%;
   margin-right: 15px;
   margin-bottom: 15px;
 }
@@ -37,6 +37,7 @@ h2{
 .clear-it{
   clear: both;
   float: right;
+  width: 40%;
 }
 
 div{
@@ -85,6 +86,7 @@ figure{
   width: 100%;
   background-color: #d98156;
   align: center;
+  margin: 0;
 }
 .rice{
   clear: left;
@@ -103,4 +105,23 @@ figure{
 .thingy{
   background-color:#d98156;
   clear: right;
+}
+figcaption{
+  text-align: center;
+  color: white;
+}
+.fl{
+  text-align: center;
+}
+.peanuts{
+  width: 30%;
+  margin:0;
+}
+.beans{
+  width: 30%;
+  margin:0;
+}
+.lentils{
+  width: 30%;
+  margin: 0;
 }
