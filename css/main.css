@@ -47,28 +47,29 @@ div{
 }
 nav{
   background-color: #cd5b34;
-  text-align: center;
-  width: none;
-  height: none;
 }
-nav ul{
+nav ol{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  display: block;
+  overflow: hidden;
 }
 nav li{
-  display: inline-block;
+  border: .2em solid darkred;
+  float: left;
+  width:33.33333333%;
+  list-style-type: none;
 }
 nav a{
-  display: inline-block;
-  padding: 1em 0.75em;
+  display: block;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   background-color: #cd5b34;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  width: none;
-  height: none;
+  text-align: center;
 }
 a:hover{
   color: #d98156;
@@ -116,12 +117,21 @@ figcaption{
 .peanuts{
   width: 30%;
   margin:0;
+  float: left;
+  clear: left;
 }
 .beans{
   width: 30%;
   margin:0;
+  float: left;
+  clear: left;
 }
 .lentils{
   width: 30%;
   margin: 0;
+  float: left;
+  clear: left;
+}
+ul{
+  text-align
 }
