@@ -115,6 +115,7 @@ figcaption{
 .fl{
   text-align: center;
   color:black;
+  font-family: 'Lato', sans-serif;
 }
 .peanuts{
   width: 30%;
@@ -161,7 +162,8 @@ ul{
 }
 .footr{
   background-color: #cd5b34;
-  padding:2em
+  padding:2em;
+  clear: both;
 }
 .left{
   width: 10%;
