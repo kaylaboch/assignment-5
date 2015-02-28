@@ -120,6 +120,7 @@ figcaption{
   float: left;
   clear: left;
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 .beans{
   width: 30%;
@@ -127,6 +128,7 @@ figcaption{
   float: left;
   clear: left;
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 .lentils{
   width: 30%;
@@ -134,19 +136,28 @@ figcaption{
   float: left;
   clear: left;
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 ul{
-  clear: left;
-  display: inline-block;
+  clear:right;
+  display: block;
   text-align: left;
+  padding: 0em 0em 5em 0em;
+}
+.b{
+  padding: 0em 0em 4.5em 0em;
+}
+.l{
+  padding: 0em;
 }
 .foot{
   clear: both;
   text-align: center;
   display:block;
-  padding: 1em 1em 1em 1em;
   overflow: hidden;
   margin: 0;
 }
-.p{
+.footr{
+  background-color: #d98156;
+  padding:2em
 }
