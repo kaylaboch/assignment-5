@@ -158,6 +158,14 @@ ul{
   margin: 0;
 }
 .footr{
-  background-color: #d98156;
+  background-color: #cd5b34;
   padding:2em
+}
+.left{
+  width: 10%;
+  float: left;
+}
+.right{
+  width: 10%;
+  float: right;
 }
