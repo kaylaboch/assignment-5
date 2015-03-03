@@ -17,11 +17,11 @@ img{
   margin-bottom: 15px;
 }
 .p{
-  margin: bottom;
   font: Georgia;
 }
 .p2{
   clear: left;
+  font-family: 'Vollkorn', serif;
 }
 
 .fc{
@@ -87,7 +87,6 @@ figure{
 .corn{
   width: 100%;
   background-color: #d98156;
-  align: center;
   margin: 0;
 }
 .rice{
@@ -111,6 +110,7 @@ figure{
 figcaption{
   text-align: center;
   color: white;
+  font-family: 'Vollkorn', serif;
 }
 .fl{
   text-align: center;
@@ -169,10 +169,10 @@ figcaption{
 .text{
   float: right;
   width: 75%;
-  font-style: none;
   display: inline-block;
   overflow: hidden;
   margin:0;
   margin-right: 1em;
   margin-bottom:1em;
+  font-family: 'Vollkorn', serif;
 }
